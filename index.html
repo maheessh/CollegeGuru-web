@@ -23,8 +23,11 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
@@ -42,14 +45,9 @@
   <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
 
   <!-- icons -->
-  <link
-  rel="stylesheet"
-  href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
-/>
-<link
-  href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  rel="stylesheet"
-/>
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
 </head>
 
@@ -79,7 +77,7 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#" class="navbar-link">Home</a>
+            <a href="#home" class="navbar-link">Home</a>
           </li>
 
           <li>
@@ -153,13 +151,13 @@
         - #HERO
       -->
 
-      <section class="section hero has-bg-image" aria-label="home"
+      <section id="home" class="section hero has-bg-image" aria-label="home"
         style="background-image: url('./assets/images/hero-bg.svg')">
         <div class="container">
 
           <div class="hero-content">
 
-            <h2 class="h1 hero-title">Helping you to get the college you derserve.  </h2>
+            <h2 class="h1 hero-title">Helping you to get the college you derserve. </h2>
 
             <p class="hero-text">
               CollegeGuru guides nepalese students to get into US universities for undergraduate education.
@@ -235,7 +233,7 @@
         - #SERVICE
       -->
 
-      <section id= #service, class="section service" aria-labelledby="service-label">
+      <section id="about" class="section service" aria-labelledby="service-label">
         <div class="container">
 
           <p class="section-subtitle" id="service-label">What We Do?</p>
@@ -326,11 +324,11 @@
                 <p class="card-text">
                   Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at.
 
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
 
               </div>
             </li>
@@ -348,7 +346,7 @@
         - #ABOUT
       -->
 
-      <section class="about" aria-labelledby="about-label">
+      <section id="" class="about" aria-labelledby="about-label">
         <div class="container">
 
           <figure class="about-banner">
@@ -430,318 +428,75 @@
 
           </div>
         </div>
-       </section>
+      </section>
 
-       <!-- FAQ section -->
-       
-       <section class="faq">
-       <div id="faq" class="faq-section scrollspy">
-        <div class="section-title">
-          <h4>FAQs</h4>
-          <div class="title-design-shape"></div>
-        </div>
-  
-        <div class="section-subtitle">
-          <h5>Eligibility</h5>
-        </div>
-  
-        <div class="container">
-          <ul class="collapsible">
-            <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">
-                    Are there any requirements to participate in the program?
-                  </div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >Anyone who has completed Grade 12 is eligible to
-                  participate in the program. The applicant must not have enrolled
-                  in a Bachelor’s program.</span
-                >
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">What are the time commitments like?</div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >Students are required to commit at least 15 hours per week to
-                  the program.</span
-                >
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">
-                    Are the candidates who are in thier second gap year eligible?
-                  </div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >Yes, if you're not enrolled in a university yet, you are
-                  eligible to apply again.</span
-                >
-              </div>
-            </li>
-  
-            <div class="section-subtitle">
-              <h5>Program Overview</h5>
-            </div>
-  
-            <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">Is the program free?</div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >No! There are different fees for different packages. But we provide partially or fully funded scholarships to very limited students.</span
-                >
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">Where will the program be held?</div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >This program will be conducted virtually. All communication
-                  will happen via video calls.</span
-                >
-              </div>
-            </li>
-            <!-- <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">
-                    How will the 6-mont of the program be organized?
-                  </div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >In the first week, students and mentors meet each other in
-                  their individual teams and discuss how they will move forward as
-                  a team to complete the project. All the teams will start their
-                  project from day 1 itself. There will also be introductions,
-                  games, and learning sessions for the whole cohort in the first
-                  week. From the 2nd to the 7th week, the teams will focus on
-                  working on their projects under the guidance of their allocated
-                  mentor. The teams will wrap up their projects in the 8th week.
-                  In the end, there will be a project showcase involving
-                  distinguished guests. The team members will be flexible with
-                  their individual working hours but will have to attend the
-                  weekly meetings mandatorily.</span
-                >
-              </div>
-            </li> -->
-            <div class="section-subtitle">
-              <h5>Selection Procedure</h5>
-            </div>
-  
-            <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">
-                    Are there any cut-offs for GPA/grades for the application
-                    process?
-                  </div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span>No, we do not have any strict cut-offs.</span>
-              </div>
-            </li>
-            <!-- <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">
-                    Is the selection process holistic or is there a certain part
-                    of the application that is more important?
-                  </div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >All the applications will be considered on a holistic basis and
-                  all the components of the application will be considered to
-                  select a diverse and talented set of participants. We are
-                  looking for a group with strong work-ethic, creativity, and
-                  ambition. Check out our blog to know about the application
-                  process:
-                  <a
-                    href="https://incubate-nepal.medium.com/approaching-the-incubate-nepal-application-10c885b5fac7"
-                    target="_blank"
-                    >Blog</a
-                  ></span
-                >
-              </div>
-            </li> -->
-          
-            <div class="section-subtitle">
-              <h5>Further Queries</h5>
-            </div>
-            <!-- <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">How can I be a mentor?</div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >If you are interested to be part of a Incubate Nepal as a
-                  mentor for 2024 please fill up this
-                  <a href="https://forms.gle/75yM71kfhVdV4XvX9" target="_blank"
-                    >Form</a
-                  >.
-                </span>
-              </div>
-            </li> -->
-            <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">
-                    Why should I participate in the program?
-                  </div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >You will have the opportunity to collaborate with smart and
-                  motivated individuals to work on real-world projects. You will
-                  build a relationship with accomplished mentors from competitive
-                  universities. You can also showcase your project in your CV to
-                  gain an edge.</span
-                >
-              </div>
-            </li>
+      <!-- FAQ section -->
 
-            <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">
-                    Do you give priority to the high schoolers over those in gap
-                    year?
-                  </div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >No priorities will be given to anyone. Your selection depends
-                  on your application merit.</span
-                >
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <div class="row">
-                  <div class="col s10">
-                    How can I contact CollegeGuru for any questions?
-                  </div>
-                  <div class="col s2">
-                    <i class="right material-icons right more">expand_more</i>
-                    <i class="material-icons right less" style="display: none"
-                      >expand_less</i
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="collapsible-body">
-                <span>
-                  You can email us at
-                  <a href="mailto:collegeguru2023@gmail.com"
-                    >collegeguru2023@gmail.com</a
-                  >
-                  or message us on our
-                  <a href="https://www.facebook.com/collegeguru12" target="_blank"
-                    >Facebook Page</a
-                  >.</span
-                >
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      <section id="faqs" class="faq">
+        <div id="faq" class="faq-section scrollspy">
+          <div class="section-title">
+            <h4>FAQs</h4>
+            <div class="title-design-shape"></div>
+          </div>
+          <div class="container">
 
-    <!-- 
+
+            <!-- accordian for FAQ Eligibility-->
+            <div class="section-subtitle">
+              <h5>Eligibility</h5>
+            </div>
+            <div class="accordian-container">
+              <button class="accordion">Are there any requirements to participate in the program?</button>
+              <div class="panel">
+                <p>Anyone who has completed Grade 12 is eligible to participate in the program. The applicant must not
+                  have enrolled in a Bachelor’s program.</p>
+              </div>
+
+              <button class="accordion">What are the time commitments like?
+              </button>
+              <div class="panel">
+                <p>Students are required to commit at least 15 hours per week to the program</p>
+              </div>
+
+              <button class="accordion">Are the candidates who are in thier second gap year eligible?</button>
+              <div class="panel">
+                <p>Yes, if you're not enrolled in a university yet, you are eligible to apply again.</p>
+              </div>
+              <!-- FAQ Eligibility Ends -->
+
+              <!-- accordian for FAQ PROGRAM OVERVIEW-->
+              <div class="section-subtitle">
+                <h5>PROGRAM OVERVIEW</h5>
+              </div>
+              <div class="accordian-container">
+                <button class="accordion">Is the program free?</button>
+                <div class="panel">
+                  <p>No! There are different fees for different packages. But we provide partially or fully funded
+                    scholarships to very limited students.</p>
+                </div>
+
+                <button class="accordion">Where will the program be held?
+                </button>
+                <div class="panel">
+                  <p>This program will be conducted virtually. All communication will happen via video calls.</p>
+                </div>
+                <!-- FAQ SELECTION PROCEDURE Ends -->
+                <!-- accordian for FAQ PROGRAM OVERVIEW-->
+                <div class="section-subtitle">
+                  <h5>SELECTION PROCEDURE</h5>
+                </div>
+                <div class="accordian-container">
+                  <button class="accordion">Are there any cut-offs for GPA/grades for the application process?</button>
+                  <div class="panel">
+                    <p>No, we do not have any strict cut-offs</p>
+                  </div>
+                  <!-- FAQ SELECTION PROCEDURE Ends -->
+
+                </div>
+              </div>
+      </section>
+
+      <!-- 
         - #CTA
       -->
 
@@ -758,7 +513,7 @@
       </section>
 
     </article>
-    
+
   </main>
 
 
