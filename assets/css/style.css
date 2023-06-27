@@ -538,6 +538,25 @@ body.nav-active {
 .hero .slider-btn.next {
   right: 20px;
 }
+/* #ABOUT */
+
+
+
+.intro-section {
+  margin: 3em 0;
+  text-align: center;
+}
+
+
+.intro-section .intro-section-info p {
+  color: #222;
+  text-align: center;
+  padding-top: 3%;
+  margin: auto;
+  font-weight: 400;
+  font-family: "Montserrat";
+  padding-inline: 8%;
+}
 
 /*-----------------------------------*\
   #SERVICE
@@ -593,7 +612,7 @@ body.nav-active {
 }
 
 /*-----------------------------------*\
-  #ABOUT
+  #WHYUS
 \*-----------------------------------*/
 .about {
   padding: 3%;
@@ -769,7 +788,7 @@ body.nav-active {
 .faq-section .section-title {
   font-weight: bold;
   text-align: center;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
   color: hsla(344, 71%, 32%, 1);
 }
 
@@ -778,6 +797,14 @@ body.nav-active {
   text-align: center;
   font-weight: 600;
   font-size: 18px;
+}
+
+.faq-section .accordian-container .accordion{
+  color: #111;
+}
+.faq-section .accordian-container{
+  width: 100%;
+  margin: auto;
 }
 
 .faq-section .collapsible {
@@ -798,6 +825,7 @@ body.nav-active {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.03em;
+  width: 100%;
 }
 
 .faq-section .collapsible .collapsible-header .row {
@@ -850,6 +878,10 @@ body.nav-active {
 .sponsor-section .sponsor-card:hover {
   transform: scale(1.1);
 }
+
+/* TEAM SLIDER */
+
+
 
 /*-----------------------------------*\
   #FOOTER
