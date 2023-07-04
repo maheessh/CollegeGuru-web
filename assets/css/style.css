@@ -184,8 +184,9 @@ body.nav-active {
 }
 
 .social-link {
-  font-size: 2rem;
+  font-size: 3rem;
   transition: var(--transition-1);
+
 }
 
 .social-link:is(:hover, :focus-visible) {
@@ -1331,3 +1332,5 @@ body.nav-active {
   max-width: 900px;
   margin-inline: auto;
 }
+
+
