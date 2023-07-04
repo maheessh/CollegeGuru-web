@@ -654,6 +654,7 @@ body.nav-active {
   font-size: 16px;
   font-weight: 500;
   color: #222;
+  text-align: left;
 }
 
 .accordion-btn:is(:hover, :focus-visible) .span,
