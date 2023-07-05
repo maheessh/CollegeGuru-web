@@ -890,12 +890,152 @@ body.nav-active {
 
 .team {
   margin: 5em 0;
+  margin-top: 0%;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  align-items: center;
 }
 
 .team .section-title{
   text-align: center;
 }
 
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.team .main-box{
+  border-radius: 10%;
+}
+
+.inner{
+  max-width: 1400px;
+  margin: 0 auto;
+
+}
+.team-imag img{
+  width: 100%;
+  height: 243px;
+  
+  
+}
+.team-wrap{
+  width: 22%;
+  margin-top: 25px;
+
+}
+
+.team-img img{
+  -webkit-transition: all .2s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+}
+
+.team-member, .team-img{
+ position: relative;
+ overflow: hidden;
+ align-items: center;
+
+}
+
+.team-title{
+  margin: 30px 0 7px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.team-title p{
+  text-align: center;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.overlays {
+  background-color: rgba(20, 20, 20, 0.7);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all .2a ease-in-out;
+}
+
+.team-details{
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  padding: 5%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.team-details p{
+  color: #fff;
+  text-align: center;
+  font-size: small;
+}
+
+.team-img:hover .team-details{
+  opacity: 1;
+  margin-top: -80px;
+
+}
+
+.team-img:hover .overlays {
+  opacity: 1;
+
+}
+
+.socials{
+  display: flex;
+  width: 37px;
+  height: 37px;
+  background-color: transparent;
+
+}
+
+.socials{
+  line-height: 37px;
+  color: #616161;
+  font-size: 14px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+
+}
+
+.team-details .socials{
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.socials a:hover{
+  color: #111;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .main-box{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .team-wrap{
+    width: 50%;
+    margin-top: 75px;
+  }
+}
 
 
 /*-----------------------------------*\
