@@ -942,9 +942,10 @@ body.nav-active {
 }
 
 .team-title{
-  margin: 30px 0 7px;
-  font-size: 20px;
+  margin: 25px 0 0;
+  font-size: 19px;
   text-align: center;
+  color: #333;
 }
 
 .team-title p{
