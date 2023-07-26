@@ -1066,6 +1066,8 @@ border: 1px solid rgba(91, 91, 91, 0.1);
   background-color: var(--charcoal);
   padding-block: 60px 100px;
   color: var(--light-gray);
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .footer-brand .footer-text {
@@ -1091,19 +1093,24 @@ border: 1px solid rgba(91, 91, 91, 0.1);
 }
 
 .footer .footer-copyright {
+  margin-top: 2%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  align-items: center;
   background:#222;
   font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
+  width: 100%;
+  height: auto;
+  font-display: flex;
 }
 
-.footer .footer-copyright .heart-outline{
-  height: fit-content;
-  width: fit-content;
-  color: hsla(344, 71%, 32%, 1);
-  fill: hsla(344, 71%, 32%, 1);
-  animation: beat 3s infinite alternate-reverse;
+.footer .footer-copyright p a:hover{
+  color:#fff;
 }
+
 .input-wrapper {
   position: relative;
   margin-block-start: 25px;
