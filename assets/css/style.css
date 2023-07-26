@@ -1052,7 +1052,7 @@ border: 1px solid rgba(91, 91, 91, 0.1);
   }
 
   .team-wrap{
-    width: 50%;
+    width: fit-content;
     margin-top: 75px;
   }
 }
@@ -1090,6 +1090,20 @@ border: 1px solid rgba(91, 91, 91, 0.1);
   color: var(--violet-blue-crayola);
 }
 
+.footer .footer-copyright {
+  background:#222;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.footer .footer-copyright .heart-outline{
+  height: fit-content;
+  width: fit-content;
+  color: hsla(344, 71%, 32%, 1);
+  fill: hsla(344, 71%, 32%, 1);
+  animation: beat 3s infinite alternate-reverse;
+}
 .input-wrapper {
   position: relative;
   margin-block-start: 25px;
